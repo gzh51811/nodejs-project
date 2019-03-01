@@ -1,0 +1,68 @@
+/*修改的css样式*/
+
+/*导航栏*/
+.nav-left {
+    float: left;
+    position:relative;
+    top:20px;
+    left:210px;
+}
+.nav-left .nav-leftchild {
+    display: block;
+    float: left;
+    margin-right: 15px;
+}
+.nav-left .nav-leftchild a {
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+.nav-left .nav-leftchild a:hover {
+    color: lightgreen;
+}
+
+/*内容主体*/
+.layui-body{
+    /*background:#ccc;*/
+    padding:20px 0 0 25px;
+}
+.layui-body .layui-tab{
+    width:1270px;
+}
+.layui-body .layui-tab .layui-tab-title{
+    height:40px;
+    width:1270px;
+}
+.layui-body .layui-tab .layui-tab-right{
+    position:absolute;
+    color:#666666;
+    font-size:20px;
+    font-weight:bolder;
+    right:45px;
+    top:40px;
+}
+.layui-body .layui-tab .layui-tab-content{
+    height:590px;
+    width:1250px;
+    /*background:yellow;*/
+    /*border-top:1px solid red;*/
+}
+.layui-tab-item{vertical-align: middle;}
+.addText{
+    width:413px;
+    float:left;
+    height:150px;
+    /*background:red;*/
+    text-align:center;
+    vertical-align: middle;
+    padding:50px 0 0 0;
+    border-bottom:1px solid #666666;
+}
+.addText .addTextp{
+    font-size:40px;
+    color:orange;
+    font-weight:bolder;
+}
+.addText .addTextpp{
+    font-size:18px;
+}
