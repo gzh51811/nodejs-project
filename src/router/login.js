@@ -15,7 +15,7 @@ Router.post('/', bodyParser.urlencoded({ extended: false }), async (req, res) =>
     let data = await db.find('user', { username, password });
     // console.log('data:',data);
     data = data[0];
-    console.log('data:',data);
+    // console.log('data:',data);
     if (data) {
         res.send({
             _id: data._id,
@@ -29,6 +29,8 @@ Router.post('/', bodyParser.urlencoded({ extended: false }), async (req, res) =>
     }
 
 })
+
+
 
 
 module.exports = Router

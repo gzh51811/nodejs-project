@@ -1,0 +1,122 @@
+[
+    {
+        "gid": "1",
+        "username": "李一",
+        "gender": "男",
+        "city": "北京",
+        "signature": "呵呵",
+        "job": "教师",
+        "grade": "12",
+        "regtime": "2019/1/5"
+    },
+    {
+        "gid": "2",
+        "username": "李二",
+        "gender": "男",
+        "city": "上海",
+        "signature": "哈哈",
+        "job": "医生",
+        "grade": "30",
+        "regtime": "2019/1/6"
+    },
+    {
+        "gid": "3",
+        "username": "李三",
+        "gender": "男",
+        "city": "汕头",
+        "signature": "嗯嗯",
+        "job": "护士",
+        "grade": "12",
+        "regtime": "2019/1/7"
+    },
+    {
+        "gid": "4",
+        "username": "李四",
+        "gender": "男",
+        "city": "北京",
+        "signature": "呵呵",
+        "job": "农民",
+        "grade": "100",
+        "regtime": "2019/1/8"
+    },
+    {
+        "gid": "5",
+        "username": "李五",
+        "gender": "男",
+        "city": "上海",
+        "signature": "哈哈",
+        "job": "教师",
+        "grade": "12",
+        "regtime": "2019/1/9"
+    },
+    {
+        "gid": "6",
+        "username": "李六",
+        "gender": "男",
+        "city": "汕头",
+        "signature": "嗯嗯",
+        "job": "医生",
+        "grade": "30",
+        "regtime": "2019/1/10"
+    },
+    {
+        "gid": "7",
+        "username": "李七",
+        "gender": "女",
+        "city": "北京",
+        "signature": "呵呵",
+        "job": "护士",
+        "grade": "12",
+        "regtime": "2019/1/11"
+    },
+    {
+        "gid": "8",
+        "username": "张一",
+        "gender": "女",
+        "city": "上海",
+        "signature": "哈哈",
+        "job": "农民",
+        "grade": "0",
+        "regtime": "2019/1/12"
+    },
+    {
+        "gid": "9",
+        "username": "张二",
+        "gender": "女",
+        "city": "汕头",
+        "signature": "嗯嗯",
+        "job": "教师",
+        "grade": "12",
+        "regtime": "2019/1/13"
+    },
+    {
+        "gid": "10",
+        "username": "张三",
+        "gender": "女",
+        "city": "北京",
+        "signature": "呵呵",
+        "job": "医生",
+        "grade": "30",
+        "regtime": "2019/1/14"
+    },
+    {
+        "gid": "11",
+        "username": "张四",
+        "gender": "女",
+        "city": "上海",
+        "signature": "哈哈",
+        "job": "护士",
+        "grade": "12",
+        "regtime": "2019/1/15"
+    },
+    {
+        "gid": "12",
+        "username": "张五",
+        "gender": "女",
+        "city": "汕头",
+        "signature": "嗯嗯",
+        "job": "农民",
+        "grade": "30",
+        "regtime": "2019/1/16"
+    }
+]

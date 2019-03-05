@@ -8,7 +8,6 @@
   <link rel="stylesheet" type="text/css" href="css/index.css" />
   <script type="text/javascript" src="assets/layui/layui.js"></script>
   <script type="text/javascript" src="assets/common.js"></script>
-  <script src="js/indexQD.js"></script>
 </head>
 <body class="layui-layout-body">
 <div class="layui-layout layui-layout-admin">
@@ -21,7 +20,7 @@
       <li class="layui-nav-item">
         <a href="javascript:;" class="addname">
           <img src="http://t.cn/RCzsdCq" class="layui-nav-img">
-          undefined
+          大神
         </a>
         <dl class="layui-nav-child">
           <dd><a href="">基本资料</a></dd>
@@ -103,6 +102,26 @@
     © GX后台管理系统 2018-2030
   </div>
 </div>
+<script>
+//JavaScript代码区域
+layui.use('element', function(){
+  var element = layui.element;
+  
+});
+
+//改成对应名字
+var addname = document.querySelector('.addname');
+var username = Cookie.get('username');//获取cookies
+addname.innerHTML = username;
+
+//每次点击都传cookies到下个页面
+var addcookie = document.querySelector('.addcookie');
+addcookie.onclick=function(){
+  Cookie.set('username', username, {path: "/"});
+}
+
+
+</script>
 </body>
 </html>
   

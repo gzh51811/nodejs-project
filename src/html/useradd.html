@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>用户添加</title>
+	<link rel="stylesheet" type="text/css" href="../assets/layui/css/layui.css" />
+	<link rel="stylesheet" type="text/css" href="../css/useradd.css" />
+	<script type="text/javascript" src="../assets/layui/layui.js"></script>
+	<script type="text/javascript" src="../assets/common.js"></script>
+	<script src="../js/useraddQD.js"></script>
+
+</head>
+
+<body class="layui-layout-body">
+	<div class="layui-layout layui-layout-admin">
+		<div class="layui-header">
+			<div class="layui-logo">商城后台管理系统</div>
+			<ul class="nav-left">
+				<li class="nav-leftchild"><a href="../index.html">首页</a></li>
+				<li class="nav-leftchild"><a href="javascript:;">/ 用户管理</a></li>
+				<li class="nav-leftchild"><a href="javascript:;">/ 用户添加</a></li>
+			</ul>
+			<ul class="layui-nav layui-layout-right">
+				<li class="layui-nav-item">
+					<a href="javascript:;" class="addname">
+						<img src="http://t.cn/RCzsdCq" class="layui-nav-img">
+						大神
+					</a>
+					<dl class="layui-nav-child">
+						<dd><a href="">基本资料</a></dd>
+						<dd><a href="">安全设置</a></dd>
+					</dl>
+				</li>
+				<li class="layui-nav-item"><a href="login.html">退出</a></li>
+			</ul>
+		</div>
+
+		<div class="layui-side layui-bg-black">
+			<div class="layui-side-scroll">
+				<!-- 左侧导航区域（可配合layui已有的垂直导航） -->
+				<ul class="layui-nav layui-nav-tree" lay-filter="test">
+					<li class="layui-nav-item layui-nav-itemed">
+						<a class="" href="javascript:;">商品管理</a>
+						<dl class="layui-nav-child">
+							<dd><a href="goodlist.html" class="addcookie">商品列表</a></dd>
+							<dd><a href="goodsort.html" class="addcookie">商品分类</a></dd>
+							<dd><a href="goodadd.html" class="addcookie">添加商品</a></dd>
+							<dd><a href="sortadd.html" class="addcookie">添加分类</a></dd>
+						</dl>
+					</li>
+					<li class="layui-nav-item">
+						<a href="javascript:;">用户管理</a>
+						<dl class="layui-nav-child">
+							<dd><a href="userlist.html" class="addcookie">用户列表</a></dd>
+							<dd><a href="useradd.html" class="addcookie">添加用户</a></dd>
+						</dl>
+					</li>
+					<li class="layui-nav-item">
+						<a href="javascript:;">订单管理</a>
+						<dl class="layui-nav-child">
+							<dd><a href="orderlist.html" class="addcookie">订单列表</a></dd>
+						</dl>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="layui-body">
+			<div class="layui-form" action="">
+				<div class="layui-form-item">
+					<label class="layui-form-label">用户名</label>
+					<div class="layui-input-block">
+						<input type="text" name="title" lay-verify="title" autocomplete="off" placeholder="请输入用户名"
+							class="layui-input inputadd1 xingming">
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<label class="layui-form-label">密码</label>
+					<div class="layui-input-block">
+						<input type="password" name="title" lay-verify="title" autocomplete="off" placeholder="请输入密码"
+							class="layui-input inputadd1 mima1">
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<label class="layui-form-label">确认密码</label>
+					<div class="layui-input-block">
+						<input type="password" name="title" lay-verify="title" autocomplete="off" placeholder="请再次输入密码"
+							class="layui-input inputadd1 mima2">
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<div class="layui-inline">
+						<label class="layui-form-label">城市</label>
+						<div class="layui-input-inline">
+							<input type="text" class="layui-input chengshi">
+						</div>
+					</div>
+					<div class="layui-inline">
+						<label class="layui-form-label">性别</label>
+						<div class="layui-input-inline">
+							<input type="text" class="layui-input xingbie">
+						</div>
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<div class="layui-inline">
+						<label class="layui-form-label">职业</label>
+						<div class="layui-input-inline">
+							<input type="text" class="layui-input zhiye">
+						</div>
+					</div>
+					<div class="layui-inline">
+						<label class="layui-form-label">积分</label>
+						<div class="layui-input-inline">
+							<input type="text" class="layui-input jifen">
+						</div>
+					</div>
+				</div>
+				<div class="layui-form-item layui-form-text" style="width:600px;">
+					<label class="layui-form-label">签名</label>
+					<div class="layui-input-block">
+						<textarea placeholder="请输入内容" class="layui-textarea qianming"></textarea>
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<div class="layui-input-block">
+						<button class="layui-btn tijiao" lay-submit="" lay-filter="demo1">确认</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<!-- 表单特效js -->
+		<script>
+			layui.use(['form', 'layedit', 'laydate'], function () {
+				var form = layui.form,
+					layer = layui.layer,
+					layedit = layui.layedit,
+					laydate = layui.laydate;
+			});
+		</script>
+	</div>
+
+	<div class="layui-footer">
+		<!-- 底部固定区域 -->
+		© XX后台管理系统 2018-2030
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,302 @@
+[
+    {
+        "gid": "1",
+        "goodname": "小米1",
+        "price": "3000",
+        "shuliang": "500",
+        "yunfei": "20",
+        "goodprice": "12000",
+        "orderprice": "11000",
+        "addtime": "2019/1/8"
+    },
+    {
+        "gid": "2",
+        "goodname": "小米2",
+        "price": "3099",
+        "shuliang": "502",
+        "yunfei": "19",
+        "goodprice": "12120",
+        "orderprice": "11120",
+        "addtime": "2019/1/9"
+    },
+    {
+        "gid": "3",
+        "goodname": "小米3",
+        "price": "3198",
+        "shuliang": "504",
+        "yunfei": "20",
+        "goodprice": "12240",
+        "orderprice": "11240",
+        "addtime": "2019/1/10"
+    },
+    {
+        "gid": "4",
+        "goodname": "小米4",
+        "price": "3297",
+        "shuliang": "506",
+        "yunfei": "18",
+        "goodprice": "12360",
+        "orderprice": "11360",
+        "addtime": "2019/1/11"
+    },
+    {
+        "gid": "5",
+        "goodname": "小米5",
+        "price": "3396",
+        "shuliang": "508",
+        "yunfei": "18",
+        "goodprice": "12480",
+        "orderprice": "11480",
+        "addtime": "2019/1/12"
+    },
+    {
+        "gid": "6",
+        "goodname": "小米6",
+        "price": "3495",
+        "shuliang": "510",
+        "yunfei": "17.5",
+        "goodprice": "12600",
+        "orderprice": "11600",
+        "addtime": "2019/1/13"
+    },
+    {
+        "gid": "7",
+        "goodname": "小米7",
+        "price": "3594",
+        "shuliang": "512",
+        "yunfei": "17",
+        "goodprice": "12720",
+        "orderprice": "11720",
+        "addtime": "2019/1/14"
+    },
+    {
+        "gid": "8",
+        "goodname": "小米8",
+        "price": "3693",
+        "shuliang": "514",
+        "yunfei": "16.5",
+        "goodprice": "12840",
+        "orderprice": "11840",
+        "addtime": "2019/1/15"
+    },
+    {
+        "gid": "9",
+        "goodname": "小米9",
+        "price": "3792",
+        "shuliang": "516",
+        "yunfei": "16",
+        "goodprice": "12960",
+        "orderprice": "11960",
+        "addtime": "2019/1/16"
+    },
+    {
+        "gid": "10",
+        "goodname": "小米10",
+        "price": "3891",
+        "shuliang": "518",
+        "yunfei": "15.5",
+        "goodprice": "13080",
+        "orderprice": "12080",
+        "addtime": "2019/1/17"
+    },
+    {
+        "gid": "11",
+        "goodname": "node1",
+        "price": "3990",
+        "shuliang": "520",
+        "yunfei": "15",
+        "goodprice": "13200",
+        "orderprice": "12200",
+        "addtime": "2019/1/18"
+    },
+    {
+        "gid": "12",
+        "goodname": "node2",
+        "price": "4089",
+        "shuliang": "522",
+        "yunfei": "14.5",
+        "goodprice": "13320",
+        "orderprice": "12320",
+        "addtime": "2019/1/19"
+    },
+    {
+        "gid": "13",
+        "goodname": "node3",
+        "price": "4188",
+        "shuliang": "524",
+        "yunfei": "14",
+        "goodprice": "13440",
+        "orderprice": "12440",
+        "addtime": "2019/1/20"
+    },
+    {
+        "gid": "14",
+        "goodname": "node4",
+        "price": "4287",
+        "shuliang": "526",
+        "yunfei": "13.5",
+        "goodprice": "13560",
+        "orderprice": "12560",
+        "addtime": "2019/1/21"
+    },
+    {
+        "gid": "15",
+        "goodname": "node5",
+        "price": "4386",
+        "shuliang": "528",
+        "yunfei": "13",
+        "goodprice": "13680",
+        "orderprice": "12680",
+        "addtime": "2019/1/22"
+    },
+    {
+        "gid": "16",
+        "goodname": "node6",
+        "price": "4485",
+        "shuliang": "530",
+        "yunfei": "12.5",
+        "goodprice": "13800",
+        "orderprice": "12800",
+        "addtime": "2019/1/23"
+    },
+    {
+        "gid": "17",
+        "goodname": "node7",
+        "price": "4584",
+        "shuliang": "532",
+        "yunfei": "12",
+        "goodprice": "13920",
+        "orderprice": "12920",
+        "addtime": "2019/1/24"
+    },
+    {
+        "gid": "18",
+        "goodname": "node8",
+        "price": "4683",
+        "shuliang": "534",
+        "yunfei": "11.5",
+        "goodprice": "14040",
+        "orderprice": "13040",
+        "addtime": "2019/1/25"
+    },
+    {
+        "gid": "19",
+        "goodname": "node9",
+        "price": "4782",
+        "shuliang": "536",
+        "yunfei": "11",
+        "goodprice": "14160",
+        "orderprice": "13160",
+        "addtime": "2019/1/26"
+    },
+    {
+        "gid": "20",
+        "goodname": "node10",
+        "price": "4881",
+        "shuliang": "538",
+        "yunfei": "10.5",
+        "goodprice": "14280",
+        "orderprice": "13280",
+        "addtime": "2019/1/27"
+    },
+    {
+        "gid": "21",
+        "goodname": "华为1",
+        "price": "4980",
+        "shuliang": "540",
+        "yunfei": "10",
+        "goodprice": "14400",
+        "orderprice": "13400",
+        "addtime": "2019/1/28"
+    },
+    {
+        "gid": "22",
+        "goodname": "华为2",
+        "price": "5079",
+        "shuliang": "542",
+        "yunfei": "9.5",
+        "goodprice": "14520",
+        "orderprice": "13520",
+        "addtime": "2019/1/29"
+    },
+    {
+        "gid": "23",
+        "goodname": "华为3",
+        "price": "5178",
+        "shuliang": "544",
+        "yunfei": "9",
+        "goodprice": "14640",
+        "orderprice": "13640",
+        "addtime": "2019/1/30"
+    },
+    {
+        "gid": "24",
+        "goodname": "华为4",
+        "price": "5277",
+        "shuliang": "546",
+        "yunfei": "8.5",
+        "goodprice": "14760",
+        "orderprice": "13760",
+        "addtime": "2019/1/31"
+    },
+    {
+        "gid": "25",
+        "goodname": "华为5",
+        "price": "5376",
+        "shuliang": "548",
+        "yunfei": "8",
+        "goodprice": "14880",
+        "orderprice": "13880",
+        "addtime": "2019/2/1"
+    },
+    {
+        "gid": "26",
+        "goodname": "华为6",
+        "price": "5475",
+        "shuliang": "550",
+        "yunfei": "7.5",
+        "goodprice": "15000",
+        "orderprice": "14000",
+        "addtime": "2019/2/2"
+    },
+    {
+        "gid": "27",
+        "goodname": "华为7",
+        "price": "5574",
+        "shuliang": "552",
+        "yunfei": "7",
+        "goodprice": "15120",
+        "orderprice": "14120",
+        "addtime": "2019/2/3"
+    },
+    {
+        "gid": "28",
+        "goodname": "华为8",
+        "price": "5673",
+        "shuliang": "554",
+        "yunfei": "6.5",
+        "goodprice": "15240",
+        "orderprice": "14240",
+        "addtime": "2019/2/4"
+    },
+    {
+        "gid": "29",
+        "goodname": "华为9",
+        "price": "5772",
+        "shuliang": "556",
+        "yunfei": "6",
+        "goodprice": "15360",
+        "orderprice": "14360",
+        "addtime": "2019/2/5"
+    },
+    {
+        "gid": "30",
+        "goodname": "华为10",
+        "price": "5871",
+        "shuliang": "558",
+        "yunfei": "5.5",
+        "goodprice": "15480",
+        "orderprice": "14480",
+        "addtime": "2019/2/6"
+    }
+]

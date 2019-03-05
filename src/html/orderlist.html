@@ -4,12 +4,12 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<title>商品列表</title>
+	<title>订单列表</title>
 	<link rel="stylesheet" type="text/css" href="../assets/layui/css/layui.css" />
-	<link rel="stylesheet" type="text/css" href="../css/goodlist.css" />
+	<link rel="stylesheet" type="text/css" href="../css/orderlist.css" />
 	<script type="text/javascript" src="../assets/layui/layui.js"></script>
 	<script type="text/javascript" src="../assets/common.js"></script>
-	<script src="../js/goodlistQD.js"></script>
+	<script src="../js/orderlistQD.js"></script>
 </head>
 
 <body class="layui-layout-body">
@@ -18,13 +18,13 @@
 			<div class="layui-logo">商城后台管理系统</div>
 			<ul class="nav-left">
 				<li class="nav-leftchild"><a href="../index.html">首页</a></li>
-				<li class="nav-leftchild"><a href="javascript:;">/ 商品管理</a></li>
-				<li class="nav-leftchild"><a href="javascript:;">/ 商品列表</a></li>
+				<li class="nav-leftchild"><a href="javascript:;">/ 订单管理</a></li>
+				<li class="nav-leftchild"><a href="javascript:;">/ 订单列表</a></li>
 			</ul>
 			<ul class="layui-nav layui-layout-right">
 				<li class="layui-nav-item">
 					<a href="javascript:;" class="addname">
-						<img src="" class="layui-nav-img">
+						<img src="http://t.cn/RCzsdCq" class="layui-nav-img">
 						大神
 					</a>
 					<dl class="layui-nav-child">
@@ -43,23 +43,23 @@
 					<li class="layui-nav-item layui-nav-itemed">
 						<a class="" href="javascript:;">商品管理</a>
 						<dl class="layui-nav-child">
-							<dd><a href="goodlist.html">商品列表</a></dd>
-							<dd><a href="goodsort.html">商品分类</a></dd>
-							<dd><a href="goodadd.html">添加商品</a></dd>
-							<dd><a href="sortadd.html">添加分类</a></dd>
+							<dd><a href="goodlist.html" class="addcookie">商品列表</a></dd>
+							<dd><a href="goodsort.html" class="addcookie">商品分类</a></dd>
+							<dd><a href="goodadd.html" class="addcookie">添加商品</a></dd>
+							<dd><a href="sortadd.html" class="addcookie">添加分类</a></dd>
 						</dl>
 					</li>
 					<li class="layui-nav-item">
 						<a href="javascript:;">用户管理</a>
 						<dl class="layui-nav-child">
-							<dd><a href="userlist.html">用户列表</a></dd>
-							<dd><a href="useradd.html">添加用户</a></dd>
+							<dd><a href="userlist.html" class="addcookie">用户列表</a></dd>
+							<dd><a href="useradd.html" class="addcookie">添加用户</a></dd>
 						</dl>
 					</li>
 					<li class="layui-nav-item">
 						<a href="javascript:;">订单管理</a>
 						<dl class="layui-nav-child">
-							<dd><a href="orderlist.html">订单列表</a></dd>
+							<dd><a href="orderlist.html" class="addcookie">订单列表</a></dd>
 						</dl>
 					</li>
 				</ul>
@@ -68,17 +68,19 @@
 
 		<div class="layui-body">
 			<!-- 内容主体区域 -->
-			<div class="layui-btn-container" style="padding-top:20px;padding-left:20px;">
-				<button class="layui-btn layui-btn-sm addgoodbtn">添加</button>
-				<button class="layui-btn layui-btn-sm" data-type="getCheckData">批量删除</button>
-			</div>
 			<table class="layui-hide" id="test" lay-filter="test"></table>
+			<script type="text/html" id="toolbarDemo">
+					<div class="layui-btn-container">
+						<!-- <button class="layui-btn layui-btn-sm" >添加</button> -->
+						<button class="layui-btn layui-btn-sm" data-type="getCheckData">批量删除</button>
+					</div>
+				</script>
 
 			<script type="text/html" id="barDemo">
-					<a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
 					<a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
-			</script>
+				</script>
 		</div>
+
 		<div class="layui-footer">
 			<!-- 底部固定区域 -->
 			© XX后台管理系统 2018-2030

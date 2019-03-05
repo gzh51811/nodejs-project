@@ -1,0 +1,191 @@
+[
+    {
+        "gid": "1",
+        "goodname": "iPhone1",
+        "category": "手机",
+        "kucun": "500",
+        "oldprice": "6000",
+        "newprice": "6200",
+        "addtime": "2019/2/1"
+    },
+    {
+        "gid": "2",
+        "goodname": "iPhone2",
+        "category": "手机",
+        "kucun": "498",
+        "oldprice": "5880",
+        "newprice": "6188",
+        "addtime": "2019/2/2"
+    },
+    {
+        "gid": "3",
+        "goodname": "iPhone3",
+        "category": "手机",
+        "kucun": "496",
+        "oldprice": "5760",
+        "newprice": "6176",
+        "addtime": "2019/2/3"
+    },
+    {
+        "gid": "4",
+        "goodname": "iPhone4",
+        "category": "手机",
+        "kucun": "494",
+        "oldprice": "5640",
+        "newprice": "6164",
+        "addtime": "2019/2/4"
+    },
+    {
+        "gid": "5",
+        "goodname": "iPhone5",
+        "category": "手机",
+        "kucun": "492",
+        "oldprice": "5520",
+        "newprice": "6152",
+        "addtime": "2019/2/5"
+    },
+    {
+        "gid": "6",
+        "goodname": "iPhone6",
+        "category": "手机",
+        "kucun": "490",
+        "oldprice": "5400",
+        "newprice": "6140",
+        "addtime": "2019/2/6"
+    },
+    {
+        "gid": "7",
+        "goodname": "iPhone7",
+        "category": "手机",
+        "kucun": "488",
+        "oldprice": "5280",
+        "newprice": "6128",
+        "addtime": "2019/2/7"
+    },
+    {
+        "gid": "8",
+        "goodname": "iPhone8",
+        "category": "手机",
+        "kucun": "486",
+        "oldprice": "5160",
+        "newprice": "6116",
+        "addtime": "2019/2/8"
+    },
+    {
+        "gid": "9",
+        "goodname": "iPhone9",
+        "category": "手机",
+        "kucun": "484",
+        "oldprice": "5040",
+        "newprice": "6104",
+        "addtime": "2019/2/9"
+    },
+    {
+        "gid": "10",
+        "goodname": "iPhone10",
+        "category": "手机",
+        "kucun": "482",
+        "oldprice": "4920",
+        "newprice": "6092",
+        "addtime": "2019/2/10"
+    },
+    {
+        "gid": "11",
+        "goodname": "iPhone11",
+        "category": "手机",
+        "kucun": "480",
+        "oldprice": "4800",
+        "newprice": "6080",
+        "addtime": "2019/2/11"
+    },
+    {
+        "gid": "12",
+        "goodname": "iPhone12",
+        "category": "手机",
+        "kucun": "478",
+        "oldprice": "4680",
+        "newprice": "6068",
+        "addtime": "2019/2/12"
+    },
+    {
+        "gid": "13",
+        "goodname": "iPhone13",
+        "category": "手机",
+        "kucun": "476",
+        "oldprice": "4560",
+        "newprice": "6056",
+        "addtime": "2019/2/13"
+    },
+    {
+        "gid": "14",
+        "goodname": "iPhone14",
+        "category": "手机",
+        "kucun": "474",
+        "oldprice": "4440",
+        "newprice": "6044",
+        "addtime": "2019/2/14"
+    },
+    {
+        "gid": "15",
+        "goodname": "iPhone15",
+        "category": "手机",
+        "kucun": "472",
+        "oldprice": "4320",
+        "newprice": "6032",
+        "addtime": "2019/2/15"
+    },
+    {
+        "gid": "16",
+        "goodname": "iPhone16",
+        "category": "手机",
+        "kucun": "470",
+        "oldprice": "4200",
+        "newprice": "6020",
+        "addtime": "2019/2/16"
+    },
+    {
+        "gid": "17",
+        "goodname": "iPhone17",
+        "category": "手机",
+        "kucun": "468",
+        "oldprice": "4080",
+        "newprice": "6008",
+        "addtime": "2019/2/17"
+    },
+    {
+        "gid": "18",
+        "goodname": "iPhone18",
+        "category": "手机",
+        "kucun": "466",
+        "oldprice": "3960",
+        "newprice": "5996",
+        "addtime": "2019/2/18"
+    },
+    {
+        "gid": "19",
+        "goodname": "iPhone19",
+        "category": "手机",
+        "kucun": "464",
+        "oldprice": "3840",
+        "newprice": "5984",
+        "addtime": "2019/2/19"
+    },
+    {
+        "gid": "20",
+        "goodname": "iPhone20",
+        "category": "手机",
+        "kucun": "462",
+        "oldprice": "3720",
+        "newprice": "5972",
+        "addtime": "2019/2/20"
+    },
+    {
+        "gid": "21",
+        "goodname": "iPhone21",
+        "category": "手机",
+        "kucun": "460",
+        "oldprice": "3600",
+        "newprice": "5960",
+        "addtime": "2019/2/21"
+    }
+]

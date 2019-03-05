@@ -1,0 +1,33 @@
+/*修改的css样式*/
+
+/*导航栏*/
+.nav-left {
+    float: left;
+    position:relative;
+    top:20px;
+    left:210px;
+}
+.nav-left .nav-leftchild {
+    display: block;
+    float: left;
+    margin-right: 15px;
+}
+.nav-left .nav-leftchild a {
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+.nav-left .nav-leftchild a:hover {
+    color: lightgreen;
+}
+
+/*主体部分修改*/
+/*上方按钮修改*/
+.layui-body{padding:20px 20px 0 20px;}
+.addbtn1{display:inline-block;margin-right:500px;}
+.layui-form-item{display:inline-block;}
+.layui-form-item .layui-inline{margin-bottom:0;margin-right:0;}
+.addbtn2{display:inline-block;}
+.layui-input{height:40px;}
+
+/*下方表格修改*/

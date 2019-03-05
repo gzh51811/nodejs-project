@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         let res = JSON.parse(xhr.responseText);
                         console.log(res);
                         if (res._id) {
-                            Cookie.set('username', _username, { 'expires': now, "path": "/" });
+                            Cookie.set('username', _username, { "path": "/" });
                             location.href = '../index.html';
                         } else {
                             spaninf.innerHTML = '输入的账号或者密码不正确';
