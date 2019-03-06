@@ -1,0 +1,542 @@
+[
+    {
+        "gid": "1",
+        "goodname": "iphone1",
+        "category": "手机",
+        "kucun": "600",
+        "oldprice": "5000",
+        "newprice": "5500",
+        "addtime": "2019/2/1"
+    },
+    {
+        "gid": "2",
+        "goodname": "iphone2",
+        "category": "手机",
+        "kucun": "700",
+        "oldprice": "5001",
+        "newprice": "5501",
+        "addtime": "2019/2/2"
+    },
+    {
+        "gid": "3",
+        "goodname": "iphone3",
+        "category": "手机",
+        "kucun": "750",
+        "oldprice": "5002",
+        "newprice": "5502",
+        "addtime": "2019/2/3"
+    },
+    {
+        "gid": "4",
+        "goodname": "iphone4",
+        "category": "手机",
+        "kucun": "850",
+        "oldprice": "5003",
+        "newprice": "5503",
+        "addtime": "2019/2/4"
+    },
+    {
+        "gid": "5",
+        "goodname": "iphone5",
+        "category": "手机",
+        "kucun": "650",
+        "oldprice": "5004",
+        "newprice": "5504",
+        "addtime": "2019/2/5"
+    },
+    {
+        "gid": "6",
+        "goodname": "iphone6",
+        "category": "手机",
+        "kucun": "400",
+        "oldprice": "5005",
+        "newprice": "5505",
+        "addtime": "2019/2/6"
+    },
+    {
+        "gid": "7",
+        "goodname": "iphone7",
+        "category": "手机",
+        "kucun": "300",
+        "oldprice": "5006",
+        "newprice": "5506",
+        "addtime": "2019/2/7"
+    },
+    {
+        "gid": "8",
+        "goodname": "iphone8",
+        "category": "手机",
+        "kucun": "800",
+        "oldprice": "5007",
+        "newprice": "5507",
+        "addtime": "2019/2/8"
+    },
+    {
+        "gid": "9",
+        "goodname": "iphone9",
+        "category": "手机",
+        "kucun": "710",
+        "oldprice": "5008",
+        "newprice": "5508",
+        "addtime": "2019/2/9"
+    },
+    {
+        "gid": "10",
+        "goodname": "iphone10",
+        "category": "手机",
+        "kucun": "130",
+        "oldprice": "5009",
+        "newprice": "5509",
+        "addtime": "2019/2/10"
+    },
+    {
+        "gid": "11",
+        "goodname": "iphone11",
+        "category": "手机",
+        "kucun": "150",
+        "oldprice": "5010",
+        "newprice": "5510",
+        "addtime": "2019/2/11"
+    },
+    {
+        "gid": "12",
+        "goodname": "iphone12",
+        "category": "手机",
+        "kucun": "180",
+        "oldprice": "5011",
+        "newprice": "5511",
+        "addtime": "2019/2/12"
+    },
+    {
+        "gid": "13",
+        "goodname": "iphone13",
+        "category": "手机",
+        "kucun": "500",
+        "oldprice": "5012",
+        "newprice": "5512",
+        "addtime": "2019/2/13"
+    },
+    {
+        "gid": "14",
+        "goodname": "iphone14",
+        "category": "手机",
+        "kucun": "505",
+        "oldprice": "5013",
+        "newprice": "5513",
+        "addtime": "2019/2/14"
+    },
+    {
+        "gid": "15",
+        "goodname": "iphone15",
+        "category": "手机",
+        "kucun": "510",
+        "oldprice": "5014",
+        "newprice": "5514",
+        "addtime": "2019/2/15"
+    },
+    {
+        "gid": "16",
+        "goodname": "iphone16",
+        "category": "手机",
+        "kucun": "515",
+        "oldprice": "5015",
+        "newprice": "5515",
+        "addtime": "2019/2/16"
+    },
+    {
+        "gid": "17",
+        "goodname": "iphone17",
+        "category": "手机",
+        "kucun": "520",
+        "oldprice": "5016",
+        "newprice": "5516",
+        "addtime": "2019/2/17"
+    },
+    {
+        "gid": "18",
+        "goodname": "iphone18",
+        "category": "手机",
+        "kucun": "525",
+        "oldprice": "5017",
+        "newprice": "5517",
+        "addtime": "2019/2/18"
+    },
+    {
+        "gid": "19",
+        "goodname": "iphone19",
+        "category": "手机",
+        "kucun": "530",
+        "oldprice": "5018",
+        "newprice": "5518",
+        "addtime": "2019/2/19"
+    },
+    {
+        "gid": "20",
+        "goodname": "iphone20",
+        "category": "手机",
+        "kucun": "535",
+        "oldprice": "5019",
+        "newprice": "5519",
+        "addtime": "2019/2/20"
+    },
+    {
+        "gid": "21",
+        "goodname": "联想1",
+        "category": "电脑",
+        "kucun": "700",
+        "oldprice": "7000",
+        "newprice": "8000",
+        "addtime": "2019/2/21"
+    },
+    {
+        "gid": "22",
+        "goodname": "联想2",
+        "category": "电脑",
+        "kucun": "666",
+        "oldprice": "6888",
+        "newprice": "7886",
+        "addtime": "2019/2/22"
+    },
+    {
+        "gid": "23",
+        "goodname": "联想3",
+        "category": "电脑",
+        "kucun": "632",
+        "oldprice": "6776",
+        "newprice": "7772",
+        "addtime": "2019/2/23"
+    },
+    {
+        "gid": "24",
+        "goodname": "联想4",
+        "category": "电脑",
+        "kucun": "598",
+        "oldprice": "6664",
+        "newprice": "7658",
+        "addtime": "2019/2/24"
+    },
+    {
+        "gid": "25",
+        "goodname": "联想5",
+        "category": "电脑",
+        "kucun": "564",
+        "oldprice": "6552",
+        "newprice": "7544",
+        "addtime": "2019/2/25"
+    },
+    {
+        "gid": "26",
+        "goodname": "联想6",
+        "category": "电脑",
+        "kucun": "530",
+        "oldprice": "6440",
+        "newprice": "7430",
+        "addtime": "2019/2/26"
+    },
+    {
+        "gid": "27",
+        "goodname": "联想7",
+        "category": "电脑",
+        "kucun": "496",
+        "oldprice": "6328",
+        "newprice": "7316",
+        "addtime": "2019/2/27"
+    },
+    {
+        "gid": "28",
+        "goodname": "联想8",
+        "category": "电脑",
+        "kucun": "462",
+        "oldprice": "6216",
+        "newprice": "7202",
+        "addtime": "2019/2/28"
+    },
+    {
+        "gid": "29",
+        "goodname": "联想9",
+        "category": "电脑",
+        "kucun": "428",
+        "oldprice": "6104",
+        "newprice": "7088",
+        "addtime": "2019/3/1"
+    },
+    {
+        "gid": "30",
+        "goodname": "联想10",
+        "category": "电脑",
+        "kucun": "394",
+        "oldprice": "5992",
+        "newprice": "6974",
+        "addtime": "2019/3/2"
+    },
+    {
+        "gid": "31",
+        "goodname": "联想11",
+        "category": "电脑",
+        "kucun": "360",
+        "oldprice": "5880",
+        "newprice": "6860",
+        "addtime": "2019/3/3"
+    },
+    {
+        "gid": "32",
+        "goodname": "联想12",
+        "category": "电脑",
+        "kucun": "326",
+        "oldprice": "5768",
+        "newprice": "6746",
+        "addtime": "2019/3/4"
+    },
+    {
+        "gid": "33",
+        "goodname": "联想13",
+        "category": "电脑",
+        "kucun": "292",
+        "oldprice": "5656",
+        "newprice": "6632",
+        "addtime": "2019/3/5"
+    },
+    {
+        "gid": "34",
+        "goodname": "联想14",
+        "category": "电脑",
+        "kucun": "258",
+        "oldprice": "5544",
+        "newprice": "6518",
+        "addtime": "2019/3/6"
+    },
+    {
+        "gid": "35",
+        "goodname": "联想15",
+        "category": "电脑",
+        "kucun": "224",
+        "oldprice": "5432",
+        "newprice": "6404",
+        "addtime": "2019/3/7"
+    },
+    {
+        "gid": "36",
+        "goodname": "联想16",
+        "category": "电脑",
+        "kucun": "190",
+        "oldprice": "5320",
+        "newprice": "6290",
+        "addtime": "2019/3/8"
+    },
+    {
+        "gid": "37",
+        "goodname": "联想17",
+        "category": "电脑",
+        "kucun": "156",
+        "oldprice": "5208",
+        "newprice": "6176",
+        "addtime": "2019/3/9"
+    },
+    {
+        "gid": "38",
+        "goodname": "联想18",
+        "category": "电脑",
+        "kucun": "122",
+        "oldprice": "5096",
+        "newprice": "6062",
+        "addtime": "2019/3/10"
+    },
+    {
+        "gid": "39",
+        "goodname": "联想19",
+        "category": "电脑",
+        "kucun": "88",
+        "oldprice": "4984",
+        "newprice": "5948",
+        "addtime": "2019/3/11"
+    },
+    {
+        "gid": "40",
+        "goodname": "联想20",
+        "category": "电脑",
+        "kucun": "54",
+        "oldprice": "4872",
+        "newprice": "5834",
+        "addtime": "2019/3/12"
+    },
+    {
+        "gid": "41",
+        "goodname": "ipad1",
+        "category": "平板",
+        "kucun": "666",
+        "oldprice": "3000",
+        "newprice": "4000",
+        "addtime": "2019/3/13"
+    },
+    {
+        "gid": "42",
+        "goodname": "ipad2",
+        "category": "平板",
+        "kucun": "664",
+        "oldprice": "2996",
+        "newprice": "3668",
+        "addtime": "2019/3/14"
+    },
+    {
+        "gid": "43",
+        "goodname": "ipad3",
+        "category": "平板",
+        "kucun": "662",
+        "oldprice": "2992",
+        "newprice": "3336",
+        "addtime": "2019/3/15"
+    },
+    {
+        "gid": "44",
+        "goodname": "ipad4",
+        "category": "平板",
+        "kucun": "660",
+        "oldprice": "2988",
+        "newprice": "3332",
+        "addtime": "2019/3/16"
+    },
+    {
+        "gid": "45",
+        "goodname": "ipad5",
+        "category": "平板",
+        "kucun": "658",
+        "oldprice": "2984",
+        "newprice": "3328",
+        "addtime": "2019/3/17"
+    },
+    {
+        "gid": "46",
+        "goodname": "ipad6",
+        "category": "平板",
+        "kucun": "656",
+        "oldprice": "2980",
+        "newprice": "3324",
+        "addtime": "2019/3/18"
+    },
+    {
+        "gid": "47",
+        "goodname": "ipad7",
+        "category": "平板",
+        "kucun": "654",
+        "oldprice": "2976",
+        "newprice": "3320",
+        "addtime": "2019/3/19"
+    },
+    {
+        "gid": "48",
+        "goodname": "ipad8",
+        "category": "平板",
+        "kucun": "652",
+        "oldprice": "2972",
+        "newprice": "3316",
+        "addtime": "2019/3/20"
+    },
+    {
+        "gid": "49",
+        "goodname": "ipad9",
+        "category": "平板",
+        "kucun": "650",
+        "oldprice": "2968",
+        "newprice": "3312",
+        "addtime": "2019/3/21"
+    },
+    {
+        "gid": "50",
+        "goodname": "ipad10",
+        "category": "平板",
+        "kucun": "648",
+        "oldprice": "2964",
+        "newprice": "3308",
+        "addtime": "2019/3/22"
+    },
+    {
+        "gid": "51",
+        "goodname": "ipad11",
+        "category": "平板",
+        "kucun": "646",
+        "oldprice": "2960",
+        "newprice": "3304",
+        "addtime": "2019/3/23"
+    },
+    {
+        "gid": "52",
+        "goodname": "ipad12",
+        "category": "平板",
+        "kucun": "644",
+        "oldprice": "2956",
+        "newprice": "3300",
+        "addtime": "2019/3/24"
+    },
+    {
+        "gid": "53",
+        "goodname": "ipad13",
+        "category": "平板",
+        "kucun": "642",
+        "oldprice": "2952",
+        "newprice": "3296",
+        "addtime": "2019/3/25"
+    },
+    {
+        "gid": "54",
+        "goodname": "ipad14",
+        "category": "平板",
+        "kucun": "640",
+        "oldprice": "2948",
+        "newprice": "3292",
+        "addtime": "2019/3/26"
+    },
+    {
+        "gid": "55",
+        "goodname": "ipad15",
+        "category": "平板",
+        "kucun": "638",
+        "oldprice": "2944",
+        "newprice": "3288",
+        "addtime": "2019/3/27"
+    },
+    {
+        "gid": "56",
+        "goodname": "ipad16",
+        "category": "平板",
+        "kucun": "636",
+        "oldprice": "2940",
+        "newprice": "3284",
+        "addtime": "2019/3/28"
+    },
+    {
+        "gid": "57",
+        "goodname": "ipad17",
+        "category": "平板",
+        "kucun": "634",
+        "oldprice": "2936",
+        "newprice": "3280",
+        "addtime": "2019/3/29"
+    },
+    {
+        "gid": "58",
+        "goodname": "ipad18",
+        "category": "平板",
+        "kucun": "632",
+        "oldprice": "2932",
+        "newprice": "3276",
+        "addtime": "2019/3/30"
+    },
+    {
+        "gid": "59",
+        "goodname": "ipad19",
+        "category": "平板",
+        "kucun": "630",
+        "oldprice": "2928",
+        "newprice": "3272",
+        "addtime": "2019/3/31"
+    },
+    {
+        "gid": "60",
+        "goodname": "ipad20",
+        "category": "平板",
+        "kucun": "628",
+        "oldprice": "2924",
+        "newprice": "3268",
+        "addtime": "2019/4/1"
+    }
+]

@@ -38,12 +38,16 @@ document.addEventListener('DOMContentLoaded', () => {
             ajax('GET', url, data, function (str) {
                 //console.log(str);//获取后台返回信息,字符串
                 var res = JSON.parse(str);//转成数组
-                console.log(res);
-                if (res.n == 1) {
-                    alert('用户添加成功');
-                } else {
-                    alert('用户添加失败');
-                }
+                layui.use('layer', function () {
+                    var layer = layui.layer;
+                    if (res.n == 1) {
+                        layer.alert('用户添加成功', { icon: 1, time: 3000 });
+                    } else {
+                        layer.alert('用户添加失败', { icon: 1, time: 3000 });
+                    }
+    
+                    
+                });
                 //每次添加商品完就清空名字和密码信息。
                 xingming.value = '';
                 mima2.value = '';

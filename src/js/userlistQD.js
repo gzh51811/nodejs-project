@@ -129,17 +129,17 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
                 var codeId = '';
                 for (var i = 0; i < checkStatus.data.length; i++) {
-                    codeId += checkStatus.data[i]._id + ",";
+                    codeId += checkStatus.data[i].regtime + ",";
                 }
                 parent.layer.msg('删除中...', { icon: 16, shade: 0.3, time: 5000 });
                 layer.confirm("您确定要删除吗？" + codeId, function () {
                     $.ajax({
                         type: "get",
                         url: '/userlist/delmore',
-                        data: { "_id": codeId },
+                        data: { "regtime": codeId },
                         success: function (data) {
                             layer.closeAll('loading');
-                            if (data.n === 1) {
+                            if (data.ok === 1) {
                                 parent.layer.msg('删除成功！', { icon: 1 });
                                 location.reload(true);
                             } else {

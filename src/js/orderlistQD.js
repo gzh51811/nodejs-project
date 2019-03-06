@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     fixed: 'right',
                     title: '操作',
                     toolbar: '#barDemo',
-                    width: 120
+                    width: 100
                 }]
             ],
             page: true
@@ -111,8 +111,8 @@ document.addEventListener('DOMContentLoaded', () => {
                         success: function (data) {
                             console.log(data)
                             layer.closeAll('loading');
-                            if (data.n === 1) {
-                                parent.layer.msg('删除成功！', { icon: 1 });
+                            if (data.ok === 1) {
+                                parent.layer.alert('删除成功！', { icon: 1,time:1000 });
                                 location.reload(true);
                             } else {
                                 parent.layer.msg('删除失败！', { icon: 2 });

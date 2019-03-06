@@ -30,10 +30,10 @@ Router.get('/:goodcrud', async (req, res) => {
         let {
             goodname, oldprice, newprice, category, kucun, addtime
         } = req.query;
-        
+
         let data;
         try {
-            data = await db.insert('goodlist',{goodname, oldprice, newprice, category, kucun, addtime})
+            data = await db.insert('goodlist', { goodname, oldprice, newprice, category, kucun, addtime })
         } catch (err) {
             res.send(err);
         }
@@ -44,7 +44,7 @@ Router.get('/:goodcrud', async (req, res) => {
         let {
             addtime
         } = req.query;
-        
+
         // console.log('gid:',req.query.gid);
         let data;
         try {
@@ -68,26 +68,30 @@ Router.get('/:goodcrud', async (req, res) => {
         }
         res.send(data);
     }
+
+  
     // 删除多个商品
     if (goodcrud == 'delmore') {
         let {
-            _id
+            addtime
         } = req.query;
-        
-        gid = _id.substring(0, _id.length - 1);
-        
-        
-        console.log('gid:',gid);
-       
-        // let arr = Map(item=>item.gid)
-        
+
+
+        arr = addtime.split(',');
+        console.log('arr:', arr)
+        let newArr = [];
+        for (var i = 0; i < arr.length; i++) {
+            let obj = {};
+            obj.addtime = arr[i];
+            newArr.push(obj);
+        }
+
+
         let data;
-        // _id = await db.find('orderlist',{'_id':{$in:[gid]}});
         try {
+
+            data = await db.delete('goodlist',{'$or':newArr});
             
-            // data = await db.delete('goodlist',{"_id" : ObjectId("5c78d81209019f22ab70738a")});
-            data = await db.delete('goodlist',{"_id" : ObjectId(gid)});
-            console.log('data:',data);
         } catch (err) {
             res.send(err);
         }

@@ -26,12 +26,17 @@ document.addEventListener('DOMContentLoaded', () => {
         ajax('GET', url, data, function (str) {
             console.log(str);
             var res = JSON.parse(str);
-            var message = data.ok;
-            if (res.n == 1) {
-                alert('商品种类插入成功');
-            } else {
-                alert('商品种类插入不成功');
-            }
+           
+            layui.use('layer', function () {
+                var layer = layui.layer;
+                if (res.n == 1) {
+                    layer.alert('商品种类插入成功', { icon: 1, time: 3000 });
+                } else {
+                    layer.alert('商品种类插入失败', { icon: 1, time: 3000 });
+                }
+
+                
+            });
             fenlei.value = '';
             beizhu.value = '';
         })

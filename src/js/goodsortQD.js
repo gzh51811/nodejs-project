@@ -22,13 +22,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 }, {
                     field: 'addtime',
                     title: '添加时间',
-                    width: 400,
+                    width: 200,
                     unresize: true
                 }, {
                     fixed: 'right',
                     title: '操作',
                     toolbar: '#barDemo',
-                    width: 220
+                    width: 80
                 }]
             ],
             page: true
@@ -79,18 +79,18 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
                 var codeId = '';
                 for (var i = 0; i < checkStatus.data.length; i++) {
-                    codeId += checkStatus.data[i]._id + ",";
+                    codeId += checkStatus.data[i].addtime + ",";
                 }
                 parent.layer.msg('删除中...', { icon: 16, shade: 0.3, time: 5000 });
                 layer.confirm("您确定要删除吗？" + codeId, function () {
                     $.ajax({
                         type: "get",
                         url: '/category/delmore',
-                        data: { "_id": codeId },
+                        data: { "addtime": codeId },
                         success: function (data) {
                             console.log(data);
                             layer.closeAll('loading');
-                            if (data.n === 1) {
+                            if (data.ok === 1) {
                                 parent.layer.msg('删除成功！', { icon: 1 });
                                 location.reload(true);
                             } else {

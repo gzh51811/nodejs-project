@@ -55,15 +55,21 @@ Router.get('/:sortcrud', async (req, res) => {
     // 删除多个商品
     if (sortcrud == 'delmore') {
         let {
-            _id
+           addtime
         } = req.query;
-        
-        gid = _id.substring(0, _id.length - 1);
-       
-    //    console.log('gid:',_id);
+
+        arr = addtime.split(',');
+        console.log('arr:',arr)
+        let newArr=[];
+        for(var i =0;i<arr.length;i++){
+            let obj = {};
+            obj.addtime = arr[i];
+            newArr.push(obj);
+        }    
+
         let data;
         try {
-            data = await db.delete('goodlist',{"_id" : ObjectId(gid)});
+            data = await db.delete('goodsort',{'$or':newArr});
         } catch (err) {
             res.send(err);
         }

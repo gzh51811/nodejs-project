@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }, {
                     field: 'goodname',
                     title: '商品名称',
-                    width: 400,
+                    width: 300,
                 }, {
                     field: 'category',
                     title: '分类',
@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     fixed: 'right',
                     title: '操作',
                     toolbar: '#barDemo',
-                    width: 120
+                    width: 160
                 }]
             ],
             page: true
@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             console.log(data);
                             var message = data.ok;
                             var code = data.n;
-                            if (data.n === 1) {
+                            if (code === 1) {
                                 obj.del();
                                 layer.close(index);
                                 layer.alert(message, { icon: 1, time: 2000 });
@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     // });
                     EidtUv(data, value, index, obj);
                 });
-            }
+            } 
         });
         //修改函数
         function EidtUv(data, value, index, obj) {
@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
                 var codeId = '';
                 for (var i = 0; i < checkStatus.data.length; i++) {
-                    codeId += checkStatus.data[i]._id + ",";
+                    codeId += checkStatus.data[i].addtime + ",";
                 }
                 console.log(typeof (codeId));
                 parent.layer.msg('删除中...', { icon: 16, shade: 0.3, time: 5000 });
@@ -149,12 +149,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     $.ajax({
                         type: "get",
                         url: '/goodlist/delmore',
-                        data: { "_id": codeId },
+                        data: { "addtime": codeId },
                         success: function (data) {
                             console.log(data);
                             layer.closeAll('loading');
-                            if (data.n === 1) {
-                                parent.layer.msg('删除成功！', { icon: 1 });
+                            if (data.ok === 1) {
+                                layer.alert('删除成功！', { icon: 1, time: 2000 });
                                 location.reload(true);
                             } else {
                                 parent.layer.msg('删除失败！', { icon: 2 });
@@ -164,6 +164,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 })
             }
         };
+
+        
         //通用按钮
         $('.layui-btn').on('click', function () {
             var type = $(this).data('type');
@@ -174,6 +176,20 @@ document.addEventListener('DOMContentLoaded', () => {
     //JavaScript代码区域
     layui.use('element', function () {
         var element = layui.element;
+        var $ = layui.jquery;
+        $('.goodsState').on('click',function(){
+            console.log(666)
+            if(e.target.classList.contains('layui-bg-gray')){
+                thisA.classList.remove('layui-bg-gray');
+                thisA.classList.add('layui-bg-orange');
+                thisA.innerHTML = '上架';
+            }else{
+                thisA.classList.add('layui-bg-gray');
+                thisA.classList.remove('layui-bg-orange');
+                thisA.innerHTML = '下架';
+            }
+        })
+     
     });
 
     //改成对应名字

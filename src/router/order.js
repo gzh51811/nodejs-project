@@ -38,23 +38,25 @@ Router.get('/:ordercrud', async(req, res) => {
         let {
             addtime
         } = req.query;
-       
-        // arr = arr.map(item => ObjectId(item));
-        // let arr = JSON.parse(req.query._id);
-        // arr = arr.map(item => objectId(item));
-        // gid=addtime.substring(0,addtime.length-1);
-        
-      
-        // console.log('_id:',gid);
-        
+               
+   
+        arr = addtime.split(',');
+        console.log('arr:',arr)
+        let newArr=[];
+        for(var i =0;i<arr.length;i++){
+            let obj = {};
+            obj.addtime = arr[i];
+            newArr.push(obj);
+        }
+           
         let data; 
         try {
-            data = await db.delete('orderlist',{addtime:{$in:[addtime]}});
-            console.log('data:',data);
+            data = await db.delete('orderlist',{'$or':newArr});
+            // console.log('data:',data);
         } catch (err) {
             res.send(err);
         }
-        res.send(data);
+        res.send(data)
     }
 
 })

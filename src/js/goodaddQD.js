@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     layui.use('element', function () {
         var element = layui.element;
     });
+
     //改成对应名字
     var addname = document.querySelector('.addname');
     var username = Cookie.get('username');//获取cookies
@@ -19,6 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     //2.点击提交把商品信息提交到数据库
     tijiao.onclick = function () {
+
         var goodname = mingcheng.value;
         var oldprice = yuanjia.value * 1;
         var newprice = shoujia.value * 1;
@@ -30,11 +32,17 @@ document.addEventListener('DOMContentLoaded', () => {
         ajax('GET', url, data, function (str) {
             // console.log(str);//获取后台返回信息,字符串
             var res = JSON.parse(str);//转成数组
-            if (res.n == 1) {
-                alert('商品添加成功');
-            } else {
-                alert('商品添加失败');
-            }
+            layui.use('layer', function () {
+                var layer = layui.layer;
+                if (res.n == 1) {
+                    layer.alert('商品添加成功', { icon: 1, time: 3000 });
+                } else {
+                    layer.alert('商品添加失败', { icon: 1, time: 3000 });
+                }
+
+                
+            });
+            
             //每次添加商品完就清空名字和密码信息。
             mingcheng.value = '';
             yuanjia.value = '';
