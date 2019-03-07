@@ -72,7 +72,7 @@ Router.get('/:usercrud', async (req, res) => {
         } = req.query;
        
         arr = regtime.split(',');
-        console.log('arr:',arr)
+        // console.log('arr:',arr)
         let newArr=[];
         for(var i =0;i<arr.length;i++){
             let obj = {};
